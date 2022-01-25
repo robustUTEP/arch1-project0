@@ -74,4 +74,13 @@ Please observe the following standard C coding practices:
 - You will independently add another font to this project.  
   You are welcome to use either the 5x7 or 8x12 fonts we provide.  
   To reference the font file, you'll also need to modify the Makefile.
+  
+  # Learning outcomes
+  
+  - ability to use emacs editor and linux command-line compilation tools using bash shell
+  - git: ability to clone repo and add/commit/push changes 
+  - ability to understand and modify C programs with separate compilation and include files 
+  - bitfield manipulation
+  - able to use make & understand and modify Makefiles 
+  - abile to understand and modify simple programs written in C
 
