@@ -75,12 +75,15 @@ Please observe the following standard C coding practices:
   You are welcome to use either the 5x7 or 8x12 fonts we provide.  
   To reference the font file, you'll also need to modify the Makefile.
   
-  # Learning outcomes
+  Be sure to watch this video on how to [render bitmap fonts](https://www.youtube.com/playlist?list=PLW7kRC02iWTIxCZzo2IKSNpN15lRscCs2).
+ 
+ 
+ # Learning outcomes
   
-  - ability to use emacs editor and linux command-line compilation tools using bash shell
-  - git: ability to clone repo and add/commit/push changes 
-  - ability to understand and modify C programs with separate compilation and include files 
-  - bitfield manipulation
-  - able to use make & understand and modify Makefiles 
-  - abile to understand and modify simple programs written in C
+ - ability to use emacs editor and linux command-line compilation tools using bash shell
+ - git: ability to clone repo and add/commit/push changes 
+ - ability to understand and modify C programs with separate compilation and include files 
+ - bitfield manipulation
+ - able to use make & understand and modify Makefiles 
+ - abile to understand and modify simple programs written in C
 
