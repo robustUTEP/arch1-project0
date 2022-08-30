@@ -30,12 +30,16 @@ The following are source files for asciidraw
 
 You can compile this program using the command
 
-    $ cc  -g -O3 -o asciidraw uimain.c draw_shapes.c draw_chars.c 11x16font.c
+    $ cc -O3 -c uimain.c
+    $ cc -O3 -c asciidraw.c
+    $ cc -O3 -c draw_shapes.c
+    $ cc -O3 -c draw_chars.c
+    $ cc -O3 -c 11x16font.c
+    $ cc  -g -O3 -o asciidraw uimain.o draw_shapes.o draw_chars.o 11x16font.o
  
-- This command is a nuisance to type.  
-- The TAs will show you how the program *make* can more conveniently and efficiently compile asciidraw.
-- Efficiency: due to only compiling those .c files whose source has been changed more recently than their .o files.
-- Convenience: due to make reading a database called Makefile specifying dependencies among files.
+- You will need to recompile any c file  (1) whose content changes or (2) that #includes a .h file that change.  And then relink all of the .o files together. 
+- A video shows you how the program *make*  more conveniently and efficiently manages compilation of asciidraw.
+- You need to learn how (1) make works and (2) how to read and modify make's control file name 'Makefile.' 
 
 The following command runs the program
 
