@@ -34,7 +34,7 @@ You can compile this program using the command
     $ cc -O3 -c asciidraw.c
     $ cc -O3 -c draw_shapes.c
     $ cc -O3 -c draw_chars.c
-    $ cc -O3 -c 11x16font.c
+    $ cc -O3 -c 5x7-font.c
     $ cc  -g -O3 -o asciidraw uimain.o draw_shapes.o draw_chars.o 11x16font.o
  
 - You will need to recompile any c file  (1) whose content changes or (2) that #includes a .h file that change.  And then relink all of the .o files together. 
